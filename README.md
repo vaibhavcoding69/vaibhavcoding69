@@ -17,16 +17,29 @@
 ---
 
 ## 🎭 About Me
-``` javascript
-const vaibhav = {
-pronouns: "He/Him",
-currentStatus: "Student",
-passion: ["Web Development", "API Integration", "Educational Content"],
-hobbies: ["Anime", "Gaming", "Building Cool Stuff"],
-currentlyLearning: ["Advanced Python", "HTML/CSS", "AI/ML Basics"],
-askMeAbout: ["Web Dev", "APIs", "AI and stuff", "Student Life"],
-funFact: "I can debug code faster than I can solve math homework! 😅"
-};
+``` python
+class Vaibhav:
+  def init(self):
+      self.pronouns = "He/Him"
+      self.current_status = "Student"
+      self.passion = [
+      "Web Development", "API Integration", "Educational Content"
+      ]
+      self.hobbies = [
+      "Anime", "Gaming", "Building Cool Stuff"
+      ]
+      self.currently_learning = [
+      "Advanced Python", "HTML/CSS", "AI/ML Basics"
+      ]
+      self.ask_me_about = [
+      "Web Dev", "APIs", "AI and stuff", "Student Life"
+      ]
+
+  def say_hi(self):
+      return "Hey there! I'm Vaibhav 👋"
+
+vaibhav = Vaibhav()
+print(vaibhav.say_hi())
 ```
 
 ---
